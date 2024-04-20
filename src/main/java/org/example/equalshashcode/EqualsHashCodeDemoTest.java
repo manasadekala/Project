@@ -15,6 +15,7 @@ public class EqualsHashCodeDemoTest {
 
 
         Address address2=new Address();
+
         address2.street="sr";
         address2.state= "ts";
         address2.pincode="508206";
