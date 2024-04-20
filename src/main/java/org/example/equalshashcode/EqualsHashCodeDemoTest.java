@@ -20,11 +20,13 @@ public class EqualsHashCodeDemoTest {
         address2.pincode="508206";
         address2.faltNo="201";
         address2.area ="bhavani";
+
         System.out.print(address1.equals(address2));
         System.out.print(address2.equals(address1));
         System.out.println( "reflexive Test starts here");
         System.out.println("reflexive Test End here");
         System.out.println(address1.equals(address2));
+
         System.out.println((address2.equals(address1)));
         Set<Address>addresses=new HashSet<>();
 
