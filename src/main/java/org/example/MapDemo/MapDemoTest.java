@@ -26,7 +26,7 @@ public class MapDemoTest {
         Iterator<Ticket>iterator=list.iterator();
         for (;iterator.hasNext();){
             Ticket ticket=iterator.next();
-           // System.out.println("ticket"+ticket);
+           // System.out.println("ticket"+ticket);q
             if (ticket.equals(ticketfind)){
             System.out.println("ticket found"+ticket.ticketId);
 
